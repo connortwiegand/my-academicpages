@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -77,37 +75,27 @@ analytics:
 # Site Author
 author:
   name             : "Connor T. Wiegand"
-  avatar           : "profile.png"
+  avatar           : "bio-photo-1.jpg"
   bio              : "5th year Economics Ph.D. student at the University of Oregon"
-  location         : "Oregon, US"
+  github           : "connortiwiegand"
+  googlescholar    : https://scholar.google.com/citations?user=xKz_tl8AAAAJ
+  email            : mailto:connortwiegand@uoregon.edu
+  linkedin         : https://www.linkedin.com/in/connor-wiegand
+  orcid            : http://orcid.org/0009-0004-3349-3742
+  twitter          : "GTbyCW"
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+
+  # location         : "Oregon, US"
   # employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  # researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  # researchgate     :  # example: "https://www.researchgate.net/profile/"
   # uri              :
   # bitbucket        :
+  # stack_overflow   : 
   # codepen          :
   # dribbble         :
-  # flickr           :
   # facebook         :
-  # foursquare       :
-  github           : "connortiwiegand"
-  # google_plus      :
   # keybase          :
   # instagram        :
-  # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  # lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
-  # pinterest        :
-  # soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  # steam            :
-  # tumblr           :
-  twitter          : "GTbyCW"
-  # vine             :
-  # weibo            :
-  # xing             :
   # youtube          :
   # wikipedia        :
 
