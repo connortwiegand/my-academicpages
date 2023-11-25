@@ -1,0 +1,3 @@
+- name: R
+  percentage: 90
+  color: danger
