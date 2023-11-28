@@ -9,7 +9,7 @@ title                    : "Connor T. Wiegand"
 title_separator          : "-"
 name                     : &name "Connor T. Wiegand"
 description              : &description "personal description"
-url                      : #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "localhost" #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "connortwiegand/my-academicpages"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -129,6 +129,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - _sass/vendor/bootstrap_4-6-0/my-other/
 keep_files:
   - .git
   - .svn
