@@ -66,6 +66,21 @@ $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
 
+/* From theme/variables.scss (i.e. portfolYOU) */
+$primary:   #AAF0C1;
+$secondary: #0c9c7f;
+$success:   #28a745;
+$info:      #17a2b8;
+$warning:   #ffc107;
+$danger:    #dc3545;
+$light:     #f8f9fa;
+$dark:      #343a40;
+
+$text-black: #343a40;
+$text-white: rgba(white, .9);
+
+$rounded-borders: 15px;
+
 /* brands */
 $behance-color              : #1769FF;
 $dribbble-color             : #ea4c89;
@@ -87,14 +102,15 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
+$orcid-color                : #A6CE39;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : $primary;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : $primary;
+$masthead-link-color-hover  : mix(#000, $primary, 25%);
 
 
 /*

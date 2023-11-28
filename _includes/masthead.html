@@ -15,6 +15,8 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          &nbsp;
+          <li id="theme-toggler" class="nav-item nav-link masthead__menu-item masthead__menu-item--lg" role="button" onclick="toggleTheme()"></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

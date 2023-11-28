@@ -14,12 +14,6 @@ main:
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Markdown"
-    url: /markdown/
-
-  - title: "AP Guide"
-    url: /ap-guide/
 
   - title: "Skills"
     url: /skills/
@@ -30,5 +24,3 @@ main:
   - title: "Resources"
     url: /resources/
 
-  # - title: "Talks"
-  #   url: /talks/   
