@@ -83,7 +83,7 @@ $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : invert($link-color);
 $masthead-link-color        : $primary;
 $masthead-link-color-hover  : mix(#000, $primary, 25%);
-
+$email-color                : #dccc1c;
 
 /* Theme Split */
 $link-light                 : #006E33;
@@ -107,7 +107,7 @@ $twitter-color              : #55acee;
 $youtube-color              : #bb0000;
 $orcid-color                : #A6CE39;
 
-$socials: "facebook", "twitter", "github", "linkedin", "stack", "rss", "graduation-cap", "youtube", "orcid", ;
+$socials: "facebook", "twitter", "github", "linkedin", "stack", "rss", "graduation-cap", "youtube", "orcid", "envelope";
 $socials-map: (
    "facebook": $facebook-color,
    "twitter": $twitter-color,
@@ -118,6 +118,8 @@ $socials-map: (
    "graduation-cap": $google-plus-color,
    "youtube": $youtube-color,
    "orcid": $orcid-color,
+   "envelope": $email-color,
+
 );
 
 

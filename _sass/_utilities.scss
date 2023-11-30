@@ -186,7 +186,9 @@ body:hover .visually-hidden button {
       color: map-get($socials-map, $name);
     }
     i {
-      color: map-get($socials-map, $name);
+      &:hover{
+        color: map-get($socials-map, $name);
+      }
     }
   }
 }
@@ -200,6 +202,10 @@ body:hover .visually-hidden button {
   @include social-hover("github", "-alt");
   @include social-hover("stack", "-overflow");
   @include social-hover("stack", "-exchange");
+
+  i {
+    padding-right: 1rem;
+  }
   
 /*   .fa {
     &:hover {
