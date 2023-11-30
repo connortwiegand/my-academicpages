@@ -180,28 +180,32 @@ body:hover .visually-hidden button {
 }
 
 /* social icons*/
+@mixin social-hover($name, $args:"") {
+  .fa-#{$name}#{$args}, .i-link-#{$name}, .ai-#{$name}#{$args} {
+    &:hover {
+      color: map-get($socials-map, $name);
+    }
+    i {
+      color: map-get($socials-map, $name);
+    }
+  }
+}
 
 .social-icons {
-  .fa {
+  @each $social in $socials {
+    @include social-hover($social);
+    @include social-hover($social, "-square");
+  }
+
+  @include social-hover("github", "-alt");
+  @include social-hover("stack", "-overflow");
+  @include social-hover("stack", "-exchange");
+  
+/*   .fa {
     &:hover {
       color: #000;
     }
-  }
-
-  .fa-facebook,
-  .fa-facebook-square {
-    &:hover {
-      color: $facebook-color;
-    }
-  }
-
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
-    &:hover {
-      color: $github-color;
-    }
-  }
+  } 
 
   .fa-google-plus,
   .fa-google-plus-square {
@@ -216,53 +220,13 @@ body:hover .visually-hidden button {
     }
   }
 
-  .fa-linkedin,
-  .fa-linkedin-square {
-    &:hover {
-      color: $linkedin-color;
-    }
-  }
-
-  .fa-rss,
-  .fa-rss-square {
-    &:hover {
-      color: $rss-color;
-    }
-  }
-
   .fa-stack-exchange,
   .fa-stack-overflow {
     &:hover {
-      color: $stackoverflow-color;
+      color: $stack-overflow-color;
     }
   }
-
-  .fa-twitter,
-  .fa-twitter-square {
-    &:hover {
-      color: $twitter-color;
-    }
-  }
-
-  .fa-youtube,
-  .fa-youtube-square,
-  .fa-youtube-play {
-    &:hover {
-      color: $youtube-color;
-    }
-  }
-
-  .fa-graduation-cap {
-    &:hover {
-      color: $google-plus-color;
-    }
-  }
-
-  .ai-orcid-square {
-    &:hover {
-      color: $orcid-color;
-    }
-  }
+  */
 
 }
 
