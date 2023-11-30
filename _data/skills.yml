@@ -1,6 +1,6 @@
 - name: R
   percentage: 100
-  color: danger
+  color: 
 
 - name: HTML5/CSS3
   percentage: 70
@@ -8,7 +8,7 @@
 
 - name: LaTeX
   percentage: 100
-  color: secondary
+  color: 
 
 - name: Python
   percentage: 60

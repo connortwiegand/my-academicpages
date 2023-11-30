@@ -183,105 +183,160 @@ body:hover .visually-hidden button {
 
 .social-icons {
   .fa {
-    color: #000;
+    &:hover {
+      color: #000;
+    }
   }
 
   .fa-behance,
   .fa-behance-square {
-    color: $behance-color;
+    &:hover {
+      color: $behance-color;
+    }
   }
 
   .fa-dribbble {
-    color: $dribbble-color;
+    &:hover {
+      color: $dribbble-color;
+    }
   }
 
   .fa-facebook,
   .fa-facebook-square {
-    color: $facebook-color;
+    &:hover {
+      color: $facebook-color;
+    }
   }
 
   .fa-flickr {
-    color: $flickr-color;
+    &:hover {
+      color: $flickr-color;
+    }
   }
 
   .fa-foursquare {
-    color: $foursquare-color;
+    &:hover {
+      color: $foursquare-color;
+    }
   }
 
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    &:hover {
+      color: $github-color;
+    }
   }
 
   .fa-google-plus,
   .fa-google-plus-square {
-    color: $google-plus-color;
+    &:hover {
+      color: $google-plus-color;
+    }
   }
 
   .fa-instagram {
-    color: $instagram-color;
+    &:hover {
+      color: $instagram-color;
+    }
   }
 
   .fa-lastfm,
   .fa-lastfm-square {
-    color: $lastfm-color;
+    &:hover {
+      color: $lastfm-color;
+    }
   }
 
   .fa-linkedin,
   .fa-linkedin-square {
-    color: $linkedin-color;
+    &:hover {
+      color: $linkedin-color;
+    }
   }
 
   .fa-pinterest,
   .fa-pinterest-p,
   .fa-pinterest-square {
-    color: $pinterest-color;
+    &:hover {
+      color: $pinterest-color;
+    }
   }
 
   .fa-rss,
   .fa-rss-square {
-    color: $rss-color;
+    &:hover {
+      color: $rss-color;
+    }
   }
 
   .fa-soundcloud {
-    color: $soundcloud-color;
+    &:hover {
+      color: $soundcloud-color;
+    }
   }
 
   .fa-stack-exchange,
   .fa-stack-overflow {
-    color: $stackoverflow-color;
+    &:hover {
+      color: $stackoverflow-color;
+    }
   }
 
   .fa-tumblr,
   .fa-tumblr-square {
-    color: $tumblr-color;
+    &:hover {
+      color: $tumblr-color;
+    }
   }
 
   .fa-twitter,
   .fa-twitter-square {
-    color: $twitter-color;
+    &:hover {
+      color: $twitter-color;
+    }
   }
 
   .fa-vimeo,
   .fa-vimeo-square {
-    color: $vimeo-color;
+    &:hover {
+      color: $vimeo-color;
+    }
   }
 
   .fa-vine {
-    color: $vine-color;
+    &:hover {
+      color: $vine-color;
+    }
   }
 
   .fa-youtube,
   .fa-youtube-square,
   .fa-youtube-play {
-    color: $youtube-color;
+    &:hover {
+      color: $youtube-color;
+    }
   }
 
   .fa-xing,
   .fa-xing-square {
-    color: $xing-color;
+    &:hover {
+      color: $xing-color;
+    }
   }
+
+  .fa-graduation-cap {
+    &:hover {
+      color: $google-plus-color;
+    }
+  }
+
+  .ai-orcid-square {
+    &:hover {
+      color: $orcid-color;
+    }
+  }
+  
 }
 
 

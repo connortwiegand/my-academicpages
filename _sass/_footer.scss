@@ -4,6 +4,7 @@
 
 .page__footer {
   @include clearfix;
+  @include themed(background-color, $light, $dark);
   float: left;
   margin-left: 0;
   margin-right: 0;
@@ -15,7 +16,7 @@
   height: auto;
   /* sticky footer fix end */
   margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
+  // color: mix(#fff, $gray, 25%);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
@@ -37,7 +38,7 @@
   }
 
   a {
-    color: inherit;
+    color: inherit !important;
     text-decoration: none;
 
     &:hover {

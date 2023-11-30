@@ -47,6 +47,10 @@ $type-size-8                : 0.625em;  // ~10px
    Colors
    ========================================================================== */
 
+   // Eucalyptus: #44d7a8, #49E3B2
+
+
+
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
@@ -55,8 +59,6 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
 $background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
@@ -69,17 +71,29 @@ $info-color                 : #52adc8;
 /* From theme/variables.scss (i.e. portfolYOU) */
 $primary:   #AAF0C1;
 $secondary: #0c9c7f;
-$success:   #28a745;
-$info:      #17a2b8;
-$warning:   #ffc107;
-$danger:    #dc3545;
 $light:     #f8f9fa;
 $dark:      #343a40;
 
 $text-black: #343a40;
 $text-white: rgba(white, .9);
 
-$rounded-borders: 15px;
+/* links */
+$link-color                 : $primary;
+$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
+$masthead-link-color        : $primary;
+$masthead-link-color-hover  : mix(#000, $primary, 25%);
+
+
+/* Theme Split */
+$link-light                 : #006E33;
+$link-dark                  : #AAF0C1;
+
+
+
+/* code */
+$code-background-color      : #fafafa;
+$code-background-color-dark : $light-gray;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -103,14 +117,6 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 $orcid-color                : #A6CE39;
-
-
-/* links */
-$link-color                 : $primary;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary;
-$masthead-link-color-hover  : mix(#000, $primary, 25%);
 
 
 /*
@@ -163,7 +169,13 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 4px;
+$rounded-borders            : 15px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+// $success:   #28a745;
+// $info:      #17a2b8;
+// $warning:   #ffc107;
+// $danger:    #dc3545;

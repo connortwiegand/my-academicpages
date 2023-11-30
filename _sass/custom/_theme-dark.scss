@@ -10,19 +10,11 @@ $dark-900: scale-color($dark, $lightness: -30%);
     color: $text-white;
   }
 
-  // Code blocks & Syntax highlighting
+  // a {
+  //   color: $primary;
+  // }
 
-  // @import "native.scss";
-
-  pre,
-  code.highlighter-rouge {
-    @extend .highlight;
-    border: none;
-  }
-
-  .gist {
-    filter: invert(90%) hue-rotate(180deg);
-  }
+  
 
   // Inputs
   input {
@@ -82,4 +74,18 @@ $dark-900: scale-color($dark, $lightness: -30%);
   .timeline-body .timeline-item:after{
     background-color: $dark-900;
   }
+
+  // // Code blocks & Syntax highlighting
+
+  // @import "native.scss";
+
+  // pre,
+  // code.highlighter-rouge {
+  //   @extend .highlight;
+  //   border: none;
+  // }
+
+  // .gist {
+  //   filter: invert(90%) hue-rotate(180deg);
+  // }
 }
