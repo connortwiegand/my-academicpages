@@ -188,35 +188,10 @@ body:hover .visually-hidden button {
     }
   }
 
-  .fa-behance,
-  .fa-behance-square {
-    &:hover {
-      color: $behance-color;
-    }
-  }
-
-  .fa-dribbble {
-    &:hover {
-      color: $dribbble-color;
-    }
-  }
-
   .fa-facebook,
   .fa-facebook-square {
     &:hover {
       color: $facebook-color;
-    }
-  }
-
-  .fa-flickr {
-    &:hover {
-      color: $flickr-color;
-    }
-  }
-
-  .fa-foursquare {
-    &:hover {
-      color: $foursquare-color;
     }
   }
 
@@ -241,25 +216,10 @@ body:hover .visually-hidden button {
     }
   }
 
-  .fa-lastfm,
-  .fa-lastfm-square {
-    &:hover {
-      color: $lastfm-color;
-    }
-  }
-
   .fa-linkedin,
   .fa-linkedin-square {
     &:hover {
       color: $linkedin-color;
-    }
-  }
-
-  .fa-pinterest,
-  .fa-pinterest-p,
-  .fa-pinterest-square {
-    &:hover {
-      color: $pinterest-color;
     }
   }
 
@@ -270,23 +230,10 @@ body:hover .visually-hidden button {
     }
   }
 
-  .fa-soundcloud {
-    &:hover {
-      color: $soundcloud-color;
-    }
-  }
-
   .fa-stack-exchange,
   .fa-stack-overflow {
     &:hover {
       color: $stackoverflow-color;
-    }
-  }
-
-  .fa-tumblr,
-  .fa-tumblr-square {
-    &:hover {
-      color: $tumblr-color;
     }
   }
 
@@ -297,31 +244,11 @@ body:hover .visually-hidden button {
     }
   }
 
-  .fa-vimeo,
-  .fa-vimeo-square {
-    &:hover {
-      color: $vimeo-color;
-    }
-  }
-
-  .fa-vine {
-    &:hover {
-      color: $vine-color;
-    }
-  }
-
   .fa-youtube,
   .fa-youtube-square,
   .fa-youtube-play {
     &:hover {
       color: $youtube-color;
-    }
-  }
-
-  .fa-xing,
-  .fa-xing-square {
-    &:hover {
-      color: $xing-color;
     }
   }
 
@@ -336,7 +263,7 @@ body:hover .visually-hidden button {
       color: $orcid-color;
     }
   }
-  
+
 }
 
 

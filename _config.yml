@@ -92,7 +92,6 @@ author:
   # bitbucket        :
   # stack_overflow   : 
   # codepen          :
-  # dribbble         :
   # facebook         :
   # keybase          :
   # instagram        :
@@ -170,7 +169,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults
+# Default Settings/Variables
 defaults:
   # _posts
   - scope:
@@ -181,7 +180,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -197,7 +196,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -206,7 +205,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -215,7 +214,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
 
 # Sass/SCSS
