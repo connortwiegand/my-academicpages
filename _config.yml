@@ -77,9 +77,9 @@ author:
   name             : "Connor T. Wiegand"
   avatar           : "bio-photo-1.jpg"
   bio              : "5th year Economics Ph.D. student at the University of Oregon"
+  email            : cwiegand@uoregon.edu
   github           : "connortiwiegand"
   googlescholar    : https://scholar.google.com/citations?user=xKz_tl8AAAAJ
-  email            : mailto:connortwiegand@uoregon.edu
   linkedin         : https://www.linkedin.com/in/connor-wiegand
   orcid            : http://orcid.org/0009-0004-3349-3742
   twitter          : "GTbyCW"
@@ -207,6 +207,7 @@ defaults:
       author_profile: true
       share: false
       comments: true
+      pub: false
   # _portfolio
   - scope:
       path: ""
