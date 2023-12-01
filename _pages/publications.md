@@ -11,6 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
+### Research Interests
+I have research interests. 
+
+### Academic Research
+
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+### Other Projects
+Here are some other porjects I am working on. 

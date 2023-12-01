@@ -67,6 +67,7 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
+$email-color                : #dccc1c;
 
 /* From theme/variables.scss (i.e. portfolYOU) */
 $primary:   #AAF0C1;
@@ -83,7 +84,7 @@ $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : invert($link-color);
 $masthead-link-color        : $primary;
 $masthead-link-color-hover  : mix(#000, $primary, 25%);
-$email-color                : #dccc1c;
+
 
 /* Theme Split */
 $link-light                 : #006E33;
@@ -92,8 +93,8 @@ $link-dark                  : #AAF0C1;
 
 
 /* code */
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
+$code-background-color      : $light_gray;
+$code-background-color-dark : $lighter-gray;
 
 /* brands */
 $facebook-color             : #3b5998;

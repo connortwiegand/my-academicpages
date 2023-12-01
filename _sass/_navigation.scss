@@ -203,6 +203,19 @@
 
   .visible-links {
     display: table;
+    
+    .active {
+      // color: $secondary;
+      // font-weight: bold;
+      font-style: italic;
+      text-shadow: 0 0 1.25px $link-color;
+      // background: $link-color;
+      // border-radius: $border-radius;
+  
+  /*     &:hover {
+       color: #fff;
+      }  */
+    }
 
     li {
       display: table-cell;
@@ -323,7 +336,7 @@
   a {
     display: block;
     padding: 0.125em 0;
-//    // color: inherit;
+   // color: inherit;
 
     &:hover {
       text-decoration: underline;
@@ -334,9 +347,9 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-//    // color: #fff;
+    color: $background-color;
     font-weight: bold;
-//    // background: $primary-color;
+    background: $link-color;
     border-radius: $border-radius;
 
 /*     &:hover {

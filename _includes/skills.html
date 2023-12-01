@@ -1,24 +1,9 @@
----
-title: "Skills"
-permalink: /skills/
-author_profile: true
----
-@import variables;
-<!-- Load Bootstrap -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+{% include boots.html %}
 
-<!-- Load Animate.css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-<!-- wow.js CDN & Activation -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-<script> new WOW().init(); </script>
-
-<div class="row">
-  <div class="col-lg">
-    
-    {% for skill in site.data.skills %}
+<div class="col-lg">
   
+  {% for skill in site.data.skills %}
+
     <div class="row justify-content-between align-items-center">
       <div class="col-10">
         <p class="mb-1">{{ skill.name }}</p>
@@ -27,7 +12,7 @@ author_profile: true
         <p class="mb-1 text-muted">{{ skill.percentage }}%</p>
       </div>
     </div>
-  
+
     <div class="progress mb-4 bg-themed" style="height: 8px;">
       <div class="progress-bar bg-{{ skill.color | default: "primary" }} wow animated slideInLeft"
         data-wow-delay="{{ forloop.index | divided_by: 20.0 }}"
@@ -38,8 +23,7 @@ author_profile: true
         aria-valuemax="100">
       </div>
     </div>
+
+  {% endfor %}
   
-    {% endfor %}
-  
-  </div>
 </div>
