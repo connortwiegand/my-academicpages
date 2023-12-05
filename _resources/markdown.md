@@ -7,6 +7,8 @@ redirect_from:
   - /markdown.html
 ---
 
+Change `layout` in YAML to see how the layout changes certain styles. 
+
 ## Markdown guide
 
 ### Header three
@@ -174,3 +176,8 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 
 This allows you to denote <var>variables</var>.
 
+{% include base_path %}
+
+{% for post in site.pages %}
+  {% include archive-single.html %}
+{% endfor %}
