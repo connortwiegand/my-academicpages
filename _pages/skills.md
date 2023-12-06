@@ -5,8 +5,22 @@ author_profile: true
 active: false
 ---
 
+{% include boots.html %}
+---
 
-{% include skills.html %}
-## Other skills
+## Programming Skills
+<div class="row">
+   {% include skills.html source=site.data.skills %}
+</div>
+
+## Project Management Skills
 - list
 - list 
+
+## Other Technical Skills
+- Office, etc. 
+
+<!-- <script>
+$(".toc__menu").addClass("list-group");
+$("li.toc").addClass("list-group-item");
+</script> -->

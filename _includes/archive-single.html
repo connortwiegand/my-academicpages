@@ -38,6 +38,42 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
+            {%- comment -%} Excerpts {%- endcomment -%}
+
+    {% if post.excerpt  %}
+      <p class="archive__item-excerpt" itemprop="description">
+        <i>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</i>
+        {% if post.wp and post.paperurl %}
+          (<a href='{{base_url}}{{post.paperurl}}' target="_blank">Draft</a>
+          available)
+        {% endif %}
+        {% if site.read_more == 'enabled' %}
+          <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink">
+            Read more
+          </a></strong>
+        {% endif %}
+      </p>
+    {% endif %}
+
+        {%- comment -%}  ORIGINAL:  {%- endcomment -%}
+    {%- comment -%} {% if post.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">
+        <i>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>'}}</i> 
+        {% if post.wp and post.paperurl %}
+          (<a href='{{base_url}}{{post.paperurl}}' target="_blank">Draft</a> 
+          available)
+        {% endif %} 
+      </p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">
+      <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> 
+          Read more
+        </a></strong>
+      </p>
+    </p>
+    {% endif %} {%- endcomment -%}
+
     {% if post.collection == 'teaching' %}
       <p>
       {% if post.type %}
@@ -58,11 +94,7 @@
       </p>
 
     {% elsif post.collection == 'publications' %}
-      {% if post.wp %}
-        <p><i>
-          WP{% if post.paperurl %}, <a href='{{base_url}}{{post.paperurl}}' target="_blank">draft</a> available{% endif %}
-        </i></p>
-      {% elsif post.venue %}
+      {% if post.venue %}
         <p>
           Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
         </p>
@@ -77,20 +109,6 @@
         <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
         </time>
       </p>
-    {% endif %}
-
-    {% if post.excerpt and site.read_more != 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify }}
-      </p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">
-      <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-        <strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> 
-          Read more
-        </a></strong>
-      </p>
-    </p>
     {% endif %}
     
     {%- comment -%} {% if post.citation and post.paperurl and !post.wp %}

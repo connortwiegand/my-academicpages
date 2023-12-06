@@ -9,16 +9,16 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-{% include base_path %}
-
-### Research Interests
+# Research Interests
 I have research interests. 
 
-### Academic Research
+<div style="margin-bottom: -0.75em;">
+<h1> Academic Research </h1>
+</div>
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-### Other Projects
-Here are some other porjects I am working on. 
+# Other Projects
+Here are some other projects I am working on. 

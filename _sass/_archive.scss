@@ -40,6 +40,7 @@
 }
 
 .archive__item-title {
+  margin-top: 1.75em;
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
@@ -58,8 +59,8 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+  // margin-top: 0;
+  font-size: $type-size-13-px;
 
   & + p {
     text-indent: 0;
@@ -146,7 +147,7 @@
 
     .archive__item-excerpt {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-13-px;
     }
   }
 }
