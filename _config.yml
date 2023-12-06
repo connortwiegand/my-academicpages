@@ -128,7 +128,7 @@ exclude:
   - package.json
   - tmp
   - vendor
-  - _sass/vendor/bootstrap_4-6-0/my-other/
+  - images/fav-ctw-purp
 keep_files:
   - .git
   - .svn
