@@ -129,6 +129,7 @@ exclude:
   - tmp
   - vendor
   - images/fav-ctw-purp
+  - Trash
 keep_files:
   - .git
   - .svn
