@@ -24,7 +24,11 @@ layout: compress
       </footer>
     </div>
 
-    {% include scripts.html %}
+    {% if site.analytics %}
+      {% include scripts.html %}
+    {% else %}
+      <script src="{{ base_path }}/assets/js/main.min.js"></script>
+    {% endif %}
 
   </body>
 </html>
