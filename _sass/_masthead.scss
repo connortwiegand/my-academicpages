@@ -47,7 +47,10 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    @include breakpoint($x-large) {
+      padding-right: 3.5em;
+    }
+    // padding-right: 2em;
     font-weight: 700;
   }
 }

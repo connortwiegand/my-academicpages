@@ -9,8 +9,8 @@
 }
 
 #theme-toggler { 
-  margin: 0 1rem;
-  padding: 0.5rem 0;
+  margin: 0 1em;
+  padding: 0.5em 0;
   display: block;
   &:before {
     @include themed(content, "🌞", "🌙"); 

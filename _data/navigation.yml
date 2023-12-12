@@ -12,7 +12,7 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
+  - title: "Vitae"
     url: /cv/
 
   - title: "Skills"

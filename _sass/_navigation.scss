@@ -179,8 +179,8 @@
 
   a {
     display: block;
-    margin: 0 1rem;
-    padding: 0.5rem 0;
+    margin: 0 1em;
+    padding: 0.5em 0;
 //    color: $masthead-link-color;
     text-decoration: none;
 
@@ -193,7 +193,7 @@
     position: absolute;
     height: 100%;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 0.5em;
     border: 0;
     outline: none;
 ////    background-color: $primary-color;
@@ -205,16 +205,8 @@
     display: table;
     
     .active {
-      // color: $secondary;
-      // font-weight: bold;
       font-style: italic;
       text-shadow: 0 0 1.25px $link-color;
-      // background: $link-color;
-      // border-radius: $border-radius;
-  
-  /*     &:hover {
-       color: #fff;
-      }  */
     }
 
     li {
@@ -327,7 +319,7 @@
    ========================================================================== */
 
 .nav__list {
-  font-size: 1.25rem;
+  font-size: 1.25em;
 
   ul {
     margin-bottom: 1em;
@@ -360,7 +352,7 @@
 
 .nav__title {
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.5em 1em;
   font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
@@ -368,8 +360,8 @@
 
 .nav__sub-title {
   display: block;
-  margin: 0.5rem 0;
-  padding: 0.5rem 0;
+  margin: 0.5em 0;
+  padding: 0.5em 0;
   font-family: $sans-serif-narrow;
   font-size: $type-size-6;
   font-weight: bold;
@@ -406,11 +398,11 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: 0.8rem;
+  font-size: 0.8em;
 
   a {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5em 1em;
 //    color: $gray;
     font-size: $type-size-7;
     font-weight: bold;
@@ -430,7 +422,7 @@
   }
 
   li ul > li a {
-    padding-left: 2rem;
+    padding-left: 2em;
     font-weight: normal;
   }
 

@@ -78,11 +78,11 @@ read-time                : false
 
 # Site Author
 author:
-  name             : "Connor T. Wiegand"
+  name             : "Connor Thomas Wiegand"
   avatar           : "bio-photo-1.jpg"
   bio              : "5th year Economics Ph.D. student at the University of Oregon"
   email            : cwiegand@uoregon.edu
-  github           : "connortiwiegand"
+  github           : "connortwiegand"
   googlescholar    : https://scholar.google.com/citations?user=xKz_tl8AAAAJ
   linkedin         : https://www.linkedin.com/in/connor-wiegand
   orcid            : http://orcid.org/0009-0004-3349-3742
@@ -169,6 +169,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
@@ -207,6 +210,16 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+      pub: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true

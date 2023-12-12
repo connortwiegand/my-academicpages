@@ -15,7 +15,7 @@
             {% endif %}
             <li class="masthead__menu-item {% if {{page.url}} == {{link.url}} %}active{% endif %}"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li id="theme-toggler" class="nav-item nav-link masthead__menu-item masthead__menu-item--lg" role="button" onclick="toggleTheme()"></li>
+          <li id="theme-toggler" class="masthead__menu-item " role="button" onclick="toggleTheme()"></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
