@@ -226,6 +226,11 @@ defaults:
       share: false
       comments: false
       pub: false
+  - scope:
+      path: ""
+      type: data
+    values:
+      show-p: false
   # # _portfolio
   # - scope:
   #     path: ""
