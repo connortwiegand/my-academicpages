@@ -36,7 +36,7 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.collection == 'publications' %}
+        {% elsif page.collection == 'publications' or post.collection == 'projects' %}
           {% if page.wp and page.date and page.paperurl %}
             <p class="page__date">
               <strong> <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Last Updated: </strong> 
