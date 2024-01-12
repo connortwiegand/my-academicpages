@@ -57,6 +57,7 @@ A collection of courses for which I taught discussion sections, graded assignmen
    - TA, 1st-Year Core Econometrics (EC 607)
    - Grader, EC 328
 * Winter
-   - TBA
+   - TA, EC 421/521
+   - Grader, EC 333
 * Spring
    - IOR
