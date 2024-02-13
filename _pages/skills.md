@@ -8,7 +8,11 @@ active: false
 {% include boots.html %}
 ---
 
-## Programming Skills
+<!-- 2 x 2 col. of buttons to jump to different skills (canvas-looking) -->
+
+### Programming Skills
+
+---
 <div class="row">
    {% include skills.html source=site.data.skills %}
 </div>

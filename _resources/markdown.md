@@ -1,7 +1,8 @@
 ---
-title: "Markdown"
-permalink: /markdown/
+title: "Markdown Guide"
+permalink: /md-guide/
 author_profile: true
+collection: resources
 redirect_from: 
   - /md/
   - /markdown.html

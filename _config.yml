@@ -80,7 +80,7 @@ read-time                : false
 author:
   name             : "Connor Thomas Wiegand"
   avatar           : "bio-photo-1.jpg"
-  bio              : "5th year Economics Ph.D. student at the University of Oregon"
+  bio              : "Economics Ph.D. candidate at the University of Oregon"
   email            : cwiegand@uoregon.edu
   github           : "connortwiegand"
   googlescholar    : https://scholar.google.com/citations?user=xKz_tl8AAAAJ
@@ -172,6 +172,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  resources:
+    output: true
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/

@@ -2,6 +2,7 @@
 permalink: /ap-guide/
 title: "Academic Pages Guide"
 author_profile: true
+collection: resources
 redirect_from: 
   - /ap-guide.html
 ---

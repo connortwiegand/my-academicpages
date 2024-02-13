@@ -10,7 +10,8 @@ redirect_from:
  
 I am a research economist from the University of Oregon. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. Broadly speaking, the labels "Experimental Economist", "Behavioral Economist", "Game Theorist", and *"Data Scientist"* would all be accurate descriptions of what I do. I'd like to consider myself at the intersection of extracting practical information from experimental data and modelling meaningful interaction using a modern tool case of microeconomic theory.  
 
-
+<!-- Collapse this into a button to go to a page
+ 
 * Born in the pacific northwest
 
 * I have traveled all over: Spain, France, Italy, Jamaica, Barbados, Mexico, Canada...
@@ -21,7 +22,7 @@ I am a research economist from the University of Oregon. My research includes ou
 * While in high school, I participated in the [Running Start]() program, which allowed me to get my associates degree at the same time as I finished high school
 
 * In my free time, I enjoy snowboarding, playing games (board, video, you name it), and spending time with my wife. 
-
+-->
 
 #### Brief Structure of Site
 - If you are a hiring manager or you are interested in my technical skills, click [here](). 
