@@ -16,6 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
+# If you run into errors with `bundle update`, 
+## try deleting gemfile.lock; then run `bundle update`
+
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "webrick", "~> 1.8"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
@@ -23,7 +26,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
-  gem "jekyll-feed"
+  # gem "jekyll-feed"
+  gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
